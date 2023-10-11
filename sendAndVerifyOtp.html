@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./otp.css" 
+    <title>OTP Verification</title>
+</head>
+<body>
+    <h1>OTP Verification</h1>
+
+    <div id="otpForm">
+        <input type="text" id="phoneNumber" placeholder="Phone Number">
+        <button id="sendOTP">Send OTP</button>
+    </div>
+
+    <div id="verifyOTPForm" style="display: none;">
+        <input type="text" id="otpCode" placeholder="OTP Code">
+        <button id="verifyOTP">Verify OTP</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="./otp.js"></script>
+</body>
+</html>

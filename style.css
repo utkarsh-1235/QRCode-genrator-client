@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#generateQRForm {
+    margin-top: 20px;
+}
+
+#phoneNumber {
+    padding: 10px;
+}
+
+#generateQRButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#generateQRButton:hover {
+    background-color: #0056b3;
+}
+
+#generatedQR {
+    margin-top: 20px;
+}
+
+#qrCodeImage {
+    max-width: 200px;
+}
